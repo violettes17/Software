@@ -36,18 +36,19 @@
 // *********************************Initialize*********************************
 // Initialize I2C with an I2C address you set on Grove - I2C Motor Driver v1.3
 // default i2c address: 0x0f
-void I2CMotorDriver::begin(unsigned char i2c_add)
+void I2CMotorDriver::begin(unsigned char i2c_add, unsigned char freq)
 {
 	Serial.begin(9600);
 	if (i2c_add > 0x0f) {
 		Serial.println("Error! I2C address must be between 0x00 to 0x0F");
 		while(1);
 	}
+	Serial.println("Test");
 	Wire.begin();
 	delayMicroseconds(10000);
 	this->_i2c_add = i2c_add;
 	// Set default frequence to F_3921Hz
-	frequence(F_3921Hz);
+	frequence(freq);
 }
 
 // *****************************Private Function*******************************
@@ -74,7 +75,7 @@ void I2CMotorDriver::speed(unsigned char motor_id, int _speed)
 		Serial.println("Motor id error! Must be MOTOR1 or MOTOR2");
 		return;
 	}
-
+	
 	if(motor_id == MOTOR1) {
 		if (_speed >= 0) {
 			this->_M1_direction = 1; 
@@ -118,10 +119,13 @@ void I2CMotorDriver::speed(unsigned char motor_id, int _speed)
 // _frequence: F_31372Hz, F_3921Hz, F_490Hz, F_122Hz, F_30Hz
 void I2CMotorDriver::frequence(unsigned char _frequence)
 {
+	
+	Serial.println(_frequence);
 	if (_frequence < F_31372Hz || _frequence > F_30Hz) {
 		Serial.println("frequence error! Must be F_31372Hz, F_3921Hz, F_490Hz, F_122Hz, F_30Hz");
 		return;
 	}
+	
 	Wire.beginTransmission(this->_i2c_add); // begin transmission
   	Wire.write(PWMFrequenceSet);            // set frequence header
  	Wire.write(_frequence);                 // send frequence 
@@ -168,26 +172,27 @@ void I2CMotorDriver::StepperRun(int _step)
   	
   	if (_direction == 1) {	
 	  	for (int i=0; i<_step; i++) {
-	  		direction(0b0001);
-	  		direction(0b0011);
+			
+	  		direction(0b1010);
+	  		direction(0b0110);
+	  		direction(0b0101);
+	  		direction(0b1001);
+			
+	  		/*direction(0b0001);
 	  		direction(0b0010);
 	  		direction(0b0110);
 	  		direction(0b0100);
 	  		direction(0b1100);
 	  		direction(0b1000);
-	  		direction(0b1001);
+	  		direction(0b1001);*/
 	  	}
 	}
 	else if (_direction == -1) {
 	  	for (int i=0; i<_step; i++) {
-	  		direction(0b1000);
-	  		direction(0b1100);
-	  		direction(0b0100);
-	  		direction(0b0110);
-	  		direction(0b0010);
-	  		direction(0b0011);
-	  		direction(0b0001);
 	  		direction(0b1001);
+	  		direction(0b0101);
+	  		direction(0b0110);
+	  		direction(0b1010);
 	  	}
 	}	
 }
