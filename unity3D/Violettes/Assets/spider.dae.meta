@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 41fcf9c894e9a214093714a872f87854
+timeCreated: 1491844316
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bordure__Droite_Entree_carte_mini_spider_17
+    100002: bordure__Droite_Entree_carte_mini_spider_18
+    100004: bordure__GaucheEntree_carte_mini_spider_15
+    100006: bordure__GaucheEntree_carte_mini_spider_16
+    100008: bordure__mini_spider_13
+    100010: bordure__mini_spider_14
+    100012: Cage_servo_mini_spider_11
+    100014: Cage_servo_mini_spider_12
+    100016: chape_mini_spider_avec_insert_roue_09-02-2017_10
+    100018: chape_mini_spider_avec_insert_roue_09-02-2017_9
+    100020: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_7
+    100022: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_8
+    100024: piece_liaison_base_mini_spider_5
+    100026: piece_liaison_base_mini_spider_6
+    100028: Rondelle_liaison_base_mini_spider_3
+    100030: Rondelle_liaison_base_mini_spider_4
+    100032: //RootNode
+    100034: support_2560_1
+    100036: support_2560_2
+    400000: bordure__Droite_Entree_carte_mini_spider_17
+    400002: bordure__Droite_Entree_carte_mini_spider_18
+    400004: bordure__GaucheEntree_carte_mini_spider_15
+    400006: bordure__GaucheEntree_carte_mini_spider_16
+    400008: bordure__mini_spider_13
+    400010: bordure__mini_spider_14
+    400012: Cage_servo_mini_spider_11
+    400014: Cage_servo_mini_spider_12
+    400016: chape_mini_spider_avec_insert_roue_09-02-2017_10
+    400018: chape_mini_spider_avec_insert_roue_09-02-2017_9
+    400020: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_7
+    400022: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_8
+    400024: piece_liaison_base_mini_spider_5
+    400026: piece_liaison_base_mini_spider_6
+    400028: Rondelle_liaison_base_mini_spider_3
+    400030: Rondelle_liaison_base_mini_spider_4
+    400032: //RootNode
+    400034: support_2560_1
+    400036: support_2560_2
+    2300000: bordure__Droite_Entree_carte_mini_spider_18
+    2300002: bordure__GaucheEntree_carte_mini_spider_16
+    2300004: bordure__mini_spider_14
+    2300006: Cage_servo_mini_spider_12
+    2300008: chape_mini_spider_avec_insert_roue_09-02-2017_10
+    2300010: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_8
+    2300012: piece_liaison_base_mini_spider_6
+    2300014: Rondelle_liaison_base_mini_spider_4
+    2300016: support_2560_2
+    3300000: bordure__Droite_Entree_carte_mini_spider_18
+    3300002: bordure__GaucheEntree_carte_mini_spider_16
+    3300004: bordure__mini_spider_14
+    3300006: Cage_servo_mini_spider_12
+    3300008: chape_mini_spider_avec_insert_roue_09-02-2017_10
+    3300010: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_8
+    3300012: piece_liaison_base_mini_spider_6
+    3300014: Rondelle_liaison_base_mini_spider_4
+    3300016: support_2560_2
+    4300000: support_2560_2
+    4300002: Rondelle_liaison_base_mini_spider_4
+    4300004: piece_liaison_base_mini_spider_6
+    4300006: Patte_courte_mini_spider_avec_insert_roue_09-02-2017_8
+    4300008: chape_mini_spider_avec_insert_roue_09-02-2017_10
+    4300010: Cage_servo_mini_spider_12
+    4300012: bordure__mini_spider_14
+    4300014: bordure__GaucheEntree_carte_mini_spider_16
+    4300016: bordure__Droite_Entree_carte_mini_spider_18
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

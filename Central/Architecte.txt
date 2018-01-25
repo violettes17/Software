@@ -1,0 +1,21 @@
+
+
+
+
+
+index.py
+    library"tarax" colordescriptor.py
+										describe
+												histogram
+												
+												
+												
+Parcourir l'image 
+- pour retrouver des similitudes,
+		- avec des intrus  ou signaler un danger    (forme, couleur)
+		- avec l'une des espèces ciblée (couleur)
+		- avec une qualité de gazon  (forme, couleur)
+ - puis le cas échéant de localiser les distances vers les cibles
+ - puis le cas échéant de s'approcher d'une cible
+ 
+	

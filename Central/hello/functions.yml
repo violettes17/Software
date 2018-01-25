@@ -1,0 +1,7 @@
+functions:
+  hello:
+    runtime: nodejs
+    handler: example.hello
+  hellopy:
+    runtime: python-2.7
+    handler: examplepy.hellopy
